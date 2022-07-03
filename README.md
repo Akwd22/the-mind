@@ -28,8 +28,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="project-image-1.png">
-  <img src="project-image-2.png">
+  <img src="project-image.png">
 </div>
 <br />
 
@@ -58,8 +57,8 @@ Entire project was built with pure C and is only compatible with Linux.
 <!-- DOCUMENTATION -->
 ## Documentation
 
-You can find documentation such as technical details, instructions, and UML diagrams in the folder `docs`.
-Moreover, Doxygen docs can be generated in HTML with script file `src/Doxy/run_doxygen` ([Doxygen](https://doxygen.nl/) must be installed in your system).
+You can find documentation such as technical details, instructions, and UML diagrams in the folder `docs`.  
+Moreover, Doxygen docs can be generated in HTML with script file `src/Doxy/run_doxygen` ([Doxygen](https://doxygen.nl/) must be installed on your system).
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -107,12 +106,13 @@ apt-get install doxygen
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To play the game, you have to run a server (game), while client (human players) connect to it.
+To play the game, you have to run a server (game), while clients (human players) connect to it.
 
 1. Start the server: run the executable `src/ServerProject/ServerProject`.  
-2. Start one or more clients (on the same machine or not): run the executable `src/ClientProject/ClientProject`.
+2. Start one or more clients (on the same machine or not): run the executable `src/ClientProject/ClientProject`.  
+   On the login screen, you must type the IP address (`127.0.0.1` if the server is on the same machine) and port `25565` of the server to connect.
 
-*Note: if you want to play on the Internet, you must open the TCP port 25565 on your firewall.*
+*Note: if you want to play on the Internet, you must open the TCP port `25565` on your firewall.*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
