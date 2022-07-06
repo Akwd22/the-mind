@@ -63,7 +63,7 @@ Entire project was built with C and is only compatible with Linux.
 <!-- DOCUMENTATION -->
 ## Documentation
 
-You can find documentation such as technical details, instructions, and UML diagrams in the folder `docs`.  
+You can find documentation such as technical details, instructions, and UML diagrams in the folder `docs/`.  
 Moreover, Doxygen docs can be generated in HTML with script file `src/Doxy/run_doxygen` ([Doxygen](https://doxygen.nl/) must be installed on your system).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
